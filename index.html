@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<title>IT 161 Week 3</title>
+
+<style>
+    p, li {
+        font-size: 20px;
+       
+        }
+
+      
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+    }
+
+    td, th {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+    fieldset {
+        width:420px;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>IT 161 Week 4</h1>
+    <h1>Reading</h1>
+    <p>zyBooks Ch 3: All </p>
+    <p><a href="https://www.lifewire.com/index-html-page-3466505#:~:text=Default%20Homepage-,The%20index.,the%20homepage%20of%20the%20website." target="_blank">What is special about index.html files</a></li></p>
+    <h1>Reference</h1>
+    <ul>
+        <li><a href="https://validator.w3.org/" target="_blank" >HTML validator</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">w3shools HTML tutorial</a></li>
+        <li><a href="https://www.lifewire.com/index-html-page-3466505#:~:text=Default%20Homepage-,The%20index.,the%20homepage%20of%20the%20website." target="_blank">What is special about index.html files</a></li>
+    </ul>
+    <h1>Practice</h1>
+    <p>zyBooks Ch 3 Participation Activities All</p>
+
+    <h1>Learning Outcomes</h1>
+    <p>Upon successful completion of this chapter, students will be familiar with and able to apply the following concepts in their programs</p>
+    <ul>
+        <li>What is special about index.html and why you should have one in every directory (See article under Reference section)</li>
+        <li>HTML Containers</li>
+        <li>Forms</li>
+        <li>Form widgets</li>
+        <li>Audio and Video tags</li>
+        <li>Script and Style tags</li>
+        <li>HTML developer guidelines</li>
+
+    </ul>
+
+    <h1>Notes</h1>
+    <p><b>Forms</b> are used whenever information is collected from website visitors.   Information from a form is sent in name/value pairs.</p>
+    <p>Each form control is given a name, and the text the user types in or the values of the options they select are sent to the server.</p>
+    <p>A user fills in the form, and once they press "Submit" button, the form info is sent to the server.</p>
+    <p> The server creates a new page to send back to the browser based on info received.
+    </p>
+    <p>There are various form controls (widgets), used for adding text, passwords, making choices on the form, etc.</p>
+    <br>
+    
+ 
+    <h1>Example with a form, basic HTML 5 form validation, and a map</h1>
+  
+   <p>Try submitting the form without filling out all the fields. The form will not submit. <br>This is because of the required attribute added to some of the fields</p>
+
+    <br>
+    <form action="success.html" method="post">
+        <fieldset>
+        <label for="username">Username: </label> <br>
+        <input type="text" id="username" required="required" placeholder="jdoe"/>
+        <br><br>
+        <label for="password">Password:</label> <br>  
+        <input type="password" id="password" required="required"/>
+        <br> <br>
+        <label for="email">Email:</label> <br>  
+        <input type="email" id="email" required="required"/>
+        <br><br>
+        <label for="website">Website:</label> <br> 
+        <input type="url" id="website"/>
+        <br> <br>
+        <label for="search">Search:</label> <br>  
+        <input type="search" id="search"/>
+        <br> <br>
+        <input type="submit" value="Submit"/>
+        </fieldset>
+
+    </form>
+    
+    <br><br>
+    <div style="width: 100%"><iframe width="450" height="350" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=47.6127232, -122.3196672&amp;q=1701%20Broadway%2C%20Seattle%2C%20WA%2098122+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+
+    <p><i>Reminders: View Source (CTRL + U) <br> Always run your code through a validator. </i> </p>
+
+</body>
+</html>
